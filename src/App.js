@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { Participant, Profile , Firstpage,Wrong,Exit,Correct,Rankings } from './components';
+import { Participant, Profile , Firstpage,Wrong,Exit,Correct,Rankings, Library } from './components';
 import {Home,Creator,Game,Join,Instructions, GetReady, Login} from "./pages"
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/Wrong" element={<Wrong/>} />
           <Route path="/Correct" element = {<Correct/>}/>
           <Route path="/Rankings" element = {<Rankings/>}/>
+          <Route path="/library" element={<Library/>} />
         </Routes>
         <Routes>
         <Route path="/login" element={<Login/>}/>

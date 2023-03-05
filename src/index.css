@@ -59,3 +59,14 @@ body{
 .wrong-img{
     margin-left: 100px;
 }
+
+.card{
+    margin-left:200px;
+    margin-top:0;
+    margin-bottom: 50px;
+}
+
+.start{
+    margin-top:100px;
+
+}

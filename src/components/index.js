@@ -9,4 +9,4 @@ export {default as Exit} from "./Exit"
 export {default as Correct} from "./Correct"
 export {default as Wrong} from "./Wrong"
 export {default as Rankings} from "./Rankings"
-
+export {default as Library} from "./Library"
